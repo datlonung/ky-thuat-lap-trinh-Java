@@ -9,7 +9,7 @@ public class Baitap1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap a: ");
         n = scanner.nextInt();
-        if (n > 2) {
+        if (n >= 2) {
             if (n % 2 == 0) {
                 System.out.println("La so chan");
             } else {
